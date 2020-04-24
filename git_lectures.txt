@@ -1,0 +1,22 @@
+Git Repository
+-----------------
+It synchronize code between different members with version of file.
+
+1) login to github.com
+    - Create a new repository
+    - copy the created url
+2) To get this repository clone in your pc
+    - Open terminal & go to the directory where you want to clone the repository.
+    - use the command :
+      $ git clone <GIT_REPOSITORY_URL>
+
+      It will download the repository to your pc
+3) To create a file in the repository
+    - go to the local repository
+      $ touch <file_name>
+      $ atom .
+
+      It will open the file in Atom editor.
+
+4) git add - This command is used to add the file to the repository for commit.
+    $ git add <file_name>
